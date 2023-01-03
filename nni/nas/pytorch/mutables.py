@@ -7,7 +7,7 @@ from collections import OrderedDict
 
 import torch.nn as nn
 
-from nni.nas.pytorch.utils import global_mutable_counting
+from rubicon.tools.nni.nni.nas.pytorch.utils import global_mutable_counting
 
 logger = logging.getLogger(__name__)
 

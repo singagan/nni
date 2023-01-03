@@ -4,8 +4,8 @@
 import logging
 
 import torch.nn as nn
-from nni.nas.pytorch.mutables import Mutable, MutableScope, InputChoice
-from nni.nas.pytorch.utils import StructuredMutableTreeNode
+from rubicon.tools.nni.nni.nas.pytorch.mutables import Mutable, MutableScope, InputChoice
+from rubicon.tools.nni.nni.nas.pytorch.utils import StructuredMutableTreeNode
 
 logger = logging.getLogger(__name__)
 

@@ -7,7 +7,7 @@ from collections import OrderedDict
 import numpy as np
 import torch
 import nni.retiarii.nn.pytorch as nn
-from nni.nas.pytorch.mutables import InputChoice, LayerChoice
+from rubicon.tools.nni.nni.nas.pytorch.mutables import InputChoice, LayerChoice
 
 _logger = logging.getLogger(__name__)
 
